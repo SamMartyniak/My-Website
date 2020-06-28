@@ -123,9 +123,14 @@ main {
 footer {
     background-color: #333232; 
     height: 130px;
-    padding: 20px    
+    padding: 30px;
+    padding-left: 40px;
+    
 }
 footer p {
-    color: #FFFFFF;
-    
+    color: #FFFFFF; 
+}
+footer img {
+    height:130px;
+    width:330px;
 }
