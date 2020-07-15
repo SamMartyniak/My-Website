@@ -2,50 +2,60 @@
 
 <html lang="en">
 <head>
+    <link rel="icon" href="assets/images/logo_black.jpg">
     <title>Churchill House</title>
     <meta charset="utf-8">
     <link href="assets/css/reset.css" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-      </head>
+</head>
 
 <body>
+        <a href="index_fullwidth.html">
+        <img style="height: auto; width: 25%;" src="assets/images/logo_black.jpg" alt="churchill house logo" class="center"/>
+    </a>
     
-        <header>
-            <div class="wrapper">
-                </div>
-                <h1>
-            <a href="index_fullwidth.html">
-                    <img src="assets/images/logo_black.jpg" alt="churchill house logo"/>
-                    </a>
-            </h1> 
+    <div class="topnav" id="myTopnav">
+      
+      <a href="index_fullwidth.html"><h1>HOME</h1></a>
+      <a href="about.html"><h1>ABOUT</h1></a>
+      <a href="architecture.html"><h1>ARCHITECTURE</h1></a>
+      <a href="explore.html"><h1>EXPLORE</h1></a>
+      <a href="visit.html"><h1>VISIT</h1></a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+                          
             
-            <nav>
-            
-                <ul>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="architecture.html">ARCHITECTURE</a></li>
-                <li><a href="explore.html">EXPLORE</a></li> 
-                <li><a href="visit.html">VISIT</a></li>
-            
-            </ul>
-        </nav>
-        </header>
         
         <main>
             <div class="wrapper">
              <h2>Explore Churchill House</h2>
                
                 <div class="text-container">
-                    <img src="assets/images/explore_collage5.jpg" alt="collage" class="leftimg">
+                    <img src="assets/images/explore_collage5.jpg" alt="collage" class="leftimg" style="height: auto; width: 100%;">
                 </div>
             </div>
     </main>
-    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
     <footer>
        <a href="index_fullwidth.html">
                     <img src="assets/images/footer_test4.jpg" alt="churchill house logo"/> 
                     </a>
+       
+                    <img src="assets/images/footer-image.jpg" alt="logos" style="height: auto; width: 200px; float: right;">
+                        
         
         </footer>
     </body>

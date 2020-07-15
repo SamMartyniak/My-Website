@@ -6,31 +6,26 @@
     <meta charset="utf-8">
     <link href="assets/css/reset.css" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
-    
-      </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
 <body>
     
-        <header>
-            <div class="wrapper">
-                </div>
-                <h1>
-            <a href="index_fullwidth.html">
-                    <img src="assets/images/logo_black.jpg" alt="churchill house logo"/>
-                    </a>
-            </h1> 
-            
-            <nav>
-            
-                <ul>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="architecture.html">ARCHITECTURE</a></li>
-                <li><a href="explore.html">EXPLORE</a></li> 
-                <li><a href="visit.html">VISIT</a></li>
-            
-            </ul>
-        </nav>
-        </header>
+         <a href="index_fullwidth.html"> 
+    <img style="height: auto; width: 25%;" src="assets/images/logo_black.jpg" alt="churchill house logo" class="center"/>
+    </a>
+    
+    <div class="topnav" id="myTopnav">
+      
+      <a href="index_fullwidth.html"><h1>HOME</h1></a>
+      <a href="about.html"><h1>ABOUT</h1></a>
+      <a href="architecture.html"><h1>ARCHITECTURE</h1></a>
+      <a href="explore.html"><h1>EXPLORE</h1></a>
+      <a href="visit.html"><h1>VISIT</h1></a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
         
         <main>
             <div class="wrapper">
@@ -38,21 +33,68 @@
                
                 <div class="text-container">
                     <p>
-                    <a href="https://www.google.com/maps/place/Churchill+House,+218+Northbourne+Ave,+Braddon+ACT+2612/@-35.2621741,149.1304915,17z/data=!3m1!4b1!4m5!3m4!1s0x6b1652997c33f99f:0x24a78bb62971e4b2!8m2!3d-35.2622779!4d149.1327005">Churchill House</a>
+                    <a href="https://www.google.com/maps/place/Churchill+House,+218+Northbourne+Ave,+Braddon+ACT+2612/@-35.2621741,149.1304915,17z/data=!3m1!4b1!4m5!3m4!1s0x6b1652997c33f99f:0x24a78bb62971e4b2!8m2!3d-35.2622779!4d149.1327005">CHURCHILL HOUSE</a>
                     
                      - 218 Northborne Avenue Braddon ACT 2612
                 <a href="https://www.google.com/maps/place/Churchill+House,+218+Northbourne+Ave,+Braddon+ACT+2612/@-35.2621741,149.1304915,17z/data=!3m1!4b1!4m5!3m4!1s0x6b1652997c33f99f:0x24a78bb62971e4b2!8m2!3d-35.2622779!4d149.1327005">
+                    <br>
+                    <br>
                             
-                <img src="assets/images/map.PNG" alt="map">
+                <img src="assets/images/map.jpg" alt="map" style="height: auto; width: 100%; border: 2px solid #000000;">
+                    <br>
+                    <br>
                     </a>
                     </p>
+                <p>If you like Churchill House, why not visit some of Robin Boyd's other Canberra Projects
+                    <br>
+                    <br>
+                    <a href="http://www.canberrahouse.com.au/people/robin-boyd.html">FENNER HOUSE</a> 
+                    - 8 Monaro Crescent, Red Hill
+                    <br>
+                    <br>
+                        <img src="assets/images/fenner-house-2.jpg" alt="fenner" style="height: auto; width: 100%">
+                    <br>
+                    <br>
+                    
+                    <a href="http://www.canberrahouse.com.au/houses/11-tasmania.html">CLARK HOUSE</a>
+                    - 11 Tasmania Circle, Forrest
+                    <br>
+                    <br>
+                        <img src="assets/images/clark-house.jpg" alt="clark" style="height: auto; width: 100%">
+                    <br>
+                    <br>
+                    
+                    <a href="http://www.canberrahouse.com.au/houses/204-monaro.html">THE VERGE HOUSE</a>
+                    <br>
+                    <br>
+                        <img src="assets/images/verge-house.jpg" alt="verge" style="height: auto; width: 100%">
+                    <br>
+                    <br>
+                    
+                    
+                    </p>
+                
                 </div>
             </div>
     </main>
+    
+     <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
     <footer>
        <a href="index_fullwidth.html">
                     <img src="assets/images/footer_test4.jpg" alt="churchill house logo"/> 
                     </a>
+       
+                    <img src="assets/images/footer-image.jpg" alt="logos" style="height: auto; width: 200px; float: right;">
+                        
         
         </footer>
     </body>
