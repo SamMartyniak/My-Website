@@ -191,6 +191,12 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    display: list-item;
+}
+
 .row {
   display: flex;
 }
